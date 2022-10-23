@@ -73,3 +73,5 @@ def scanner_transform(lines: ndarray, calibrated_matrix: ndarray = None) -> Tupl
     norms = calibrated_matrix[:3, :3] @ norms
     cld = cld[:3] 'Третья строка в cld?'
     return cld, norms
+# Пробую добавить изменения в текст программы и запушить их
+
